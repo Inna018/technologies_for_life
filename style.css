@@ -1,80 +1,3 @@
-/*
-Template Name: TFL
-
-@font-face {
-  font-family: "HelveticaNeueCyr";
-  src: url("/wp-content/themes/tfl/fonts/HelveticaNeueCyr-Light.ttf")
-    format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HelveticaNeueCyr";
-  src: url("/wp-content/themes/tfl/fonts/HelveticaNeueCyr-Black.ttf")
-    format("truetype");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HelveticaNeueCyr";
-  src: url("/wp-content/themes/tfl/fonts/HelveticaNeueCyr-Bold.ttf")
-    format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HelveticaNeueCyr";
-  src: url("/wp-content/themes/tfl/fonts/HelveticaNeueCyr-Medium.ttf")
-    format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HelveticaNeueCyr";
-  src: url("/wp-content/themes/tfl/fonts/HelveticaNeueCyr-UltraLight.ttf")
-    format("truetype");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HelveticaNeueCyr";
-  src: url("/wp-content/themes/tfl/fonts/HelveticaNeueCyr-Thin.ttf")
-    format("truetype");
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Book Antiqua";
-  src: url("/wp-content/themes/tfl/fonts/BookAntiqua-Bold.woff2")
-      format("woff2"),
-    url("/wp-content/themes/tfl/fonts/BookAntiqua-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Book Antiqua";
-  src: url("/wp-content/themes/tfl/fonts/BookAntiqua.woff2") format("woff2"),
-    url("/wp-content/themes/tfl/fonts/BookAntiqua.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Book Antiqua";
-  src: url("/wp-content/themes/tfl/fonts/BookAntiqua-Bold.woff2")
-      format("woff2"),
-    url("/wp-content/themes/tfl/fonts/BookAntiqua-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-*/
 *,
 body,
 html {
@@ -122,26 +45,6 @@ img {
   margin: 0 auto;
 }
 
-/* .container:before,
-.container:after {
-  display: table;
-  content: " ";
-}
-
-.container:after {
-  clear: both;
-}
-
-.container:before,
-.container:after {
-  display: table;
-  content: " ";
-}
-
-.container:after {
-  clear: both;
-} */
-
 @media (min-width: 576px) {
   .container {
     width: 540px;
@@ -177,25 +80,6 @@ img {
     margin-right: -95px;
   }
 }
-
-/* .block-logo:before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.8) 18.78%,
-    rgba(255, 255, 255, 0.23) 100%
-  );
-}
-#arrow-right-slider-2
-  .grey-block-radiology-block-content-img-right-arrow-green {
-  right: 0;
-} */
 
 .block-logo p {
   font-weight: 600;
@@ -235,13 +119,6 @@ img {
   padding-bottom: 3px;
 }
 
-.main-header-block-left-blue {
-  background: #99bdd1;
-  height: 548px;
-  position: relative;
-  width: 293px;
-}
-
 .main-header-block-right {
   height: 548px;
   background-size: cover;
@@ -267,44 +144,6 @@ img {
   bottom: 0;
   background: rgba(0, 0, 0, 0.2);
 }
-
-.main-header-block-main-text {
-  font-family: Book Antiqua, sans-serif;
-  font-weight: 900;
-  position: absolute;
-  font-size: 96px;
-  bottom: 212px;
-  left: 0px;
-  color: #ffffff;
-  width: 556px;
-  height: 186px;
-  z-index: 1;
-}
-
-.main-header-block .container {
-  display: flex;
-  position: relative;
-}
-
-.grey-slogan {
-  padding: 15px;
-  text-align: right;
-  font-size: 24px;
-  color: #717171;
-  position: absolute;
-  bottom: 35px;
-}
-
-/* #company-budget {
-  font-family: HelveticaNeueCyr, sans-serif;
-  font-size: 18px;
-  height: 40px;
-  position: absolute;
-  color: #717171;
-  left: 68px;
-  top: 21px;
-  font-weight: 500;
-} */
 
 .radiology-block-content-title {
   font-family: Book Antiqua, sans-serif;
@@ -466,14 +305,6 @@ img {
   cursor: pointer;
 }
 
-.grey-line-main {
-  height: 1px;
-  width: 100%;
-  background: #717171;
-  margin-top: 90px;
-  margin-bottom: 37px;
-}
-
 .operating-systems-block-title {
   font-family: Book Antiqua, sans-serif;
   font-size: 24px;
@@ -549,108 +380,9 @@ img {
   transition: 0.5s;
 }
 
-/* .operating-systems-block-content-text
-  > div.operating-systems-block-content-text-2 {
-  width: calc(25% - 32px);
-}
-
-.operating-systems-block-content-text > div.active {
-  font-size: 18px;
-  color: #99bdd1;
-  width: calc(50% - 16px);
-}
-
-.operating-systems-block-content-text
-  > div.operating-systems-block-content-text-2.active {
-}
-
-.new-block-grey-img-more {
-  line-height: normal !important;
-}
-*/
 .grey-block-radiology-block-content-img-right-neuro {
   width: 744px;
 }
-
-/* 
-.radiology-block-content-img-right-clinic-neuro:before {
-  content: none;
-}
-
-.Ñonsumables-item1 {
-  width: 292px;
-  font-size: 18px;
-  color: #717171;
-  font-weight: 300;
-}
-
-.new-block-grey-img-more2 {
-  font-weight: 200 !important;
-}
-
-.Ñonsumables {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.Ñonsumables-gallery-items {
-  margin: 0 auto;
-  width: 540px;
-  position: relative;
-  height: 306px;
-}
-
-.Ñonsumables-gallery-items-text {
-  position: absolute;
-  bottom: 0px;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  background-image: linear-gradient(to top, #717171, rgba(113, 113, 113, 0));
-  height: 71px;
-}
-
-.Ñonsumables-gallery-items-text p {
-  margin-top: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
-  margin-left: 30px;
-}
-
-.Ñonsumables-gallery-items-text-more a {
-  border-bottom: 1px solid;
-}
-
-.Ñonsumables-gallery-little img {
-  width: 300px;
-  position: relative;
-  height: 228px;
-}
-
-.Ñonsumables-gallery-little img:before {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  content: "";
-  background-image: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.37) 56%,
-    rgba(255, 255, 255, 0)
-  );
-  top: 0;
-}
-
-.Ñonsumables-gallery {
-  margin-top: 35px;
-  height: 300px;
-}
-*/
 
 .new-block-grey1 {
   width: 455px;
@@ -838,15 +570,6 @@ footer {
   margin-left: 5px;
 }
 
-.main-header-block-left-blue-arrow-left {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  bottom: 0px;
-  right: 0;
-  cursor: pointer;
-}
-
 .main-header-block-right-arrow-block-right-line {
   width: 218px;
   background: #99bdd1;
@@ -866,20 +589,6 @@ footer {
   cursor: pointer;
   width: 200px;
 }
-
-/*  
-.operating-systems-block-items2:before {
-  
-}
-#arrow-right-slider-2 {
-  width: 130px;
-  position: absolute;
-  bottom: 0;
-  right: 197px;
-  cursor: pointer;
-  height: 30px;
-}
-*/
 
 .neuro-block-main {
   width: 780px;
@@ -905,94 +614,13 @@ footer {
   position: relative;
 }
 
-/* 
-.Ñonsumables-gallery-little {
-  position: relative;
-}
-
-.new-block-grey2:before {
-  position: absolute;
-  content: "";
-  width: 530px;
-  height: 2px;
-  right: 20px;
-  bottom: -86px;
-  background: #717171;
-  opacity: 0;
-}
-
-.new-block-grey2:after {
-  position: absolute;
-  content: "";
-  width: 2px;
-  height: 86px;
-  right: 20px;
-  bottom: -86px;
-  background: #717171;
-}
- */
-
 .new-block-grey2-text-white {
   position: relative;
-}
-.gallery-of-surgery-apparatus-item img {
-  height: 257px;
-  width: 300px;
-  object-fit: contain;
-  /*object-fit: cover;*/
-}
-
-/* 
-.Ñonsumables-gallery-grey-line-main {
-  margin-top: 115px;
-} */
-
-.main-header-block-medtron-content-left {
-  background: #99bdd1;
-  width: 830px;
-  height: 720px;
-  padding-left: 95px;
-  margin-left: -95px;
-  position: relative;
-}
-
-.main-header-block-medtron-content-right {
-  /*background-image: url("/wp-content/themes/tfl/img/biology-clinic-doctor-4154.png");*/
-  width: 485px;
-  height: 720px;
-  /* padding-right: 95px;
-  margin-right: -95px; */
-  position: relative;
-  background-size: cover;
-}
-
-.main-header-block-medtron-content-right-gallery {
-  width: 456px;
-  height: 600px;
-  margin-right: -95px;
 }
 
 .main-header-block-medtron-content-right-gallery img {
   height: 720px;
   object-fit: cover;
-}
-
-.main-header-block-medtron-content {
-  display: flex;
-}
-
-.main-header-block-medtron-content-left-main-title {
-  object-fit: contain;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Book Antiqua, sans-serif;
-  font-weight: 900;
-  color: #ffffff;
-  position: absolute;
-  font-size: 49px;
-  bottom: 46px;
-  left: 0px;
-  width: 352px;
-  z-index: 1;
 }
 
 .btn-retrieval-form {
@@ -1001,65 +629,11 @@ footer {
   background: none;
 }
 
-.catalog-retrieval-form-block-form .catalog-retrieval-form-block-form-name {
-  background-color: #99bdd1;
-  border-bottom: 2px solid rgba(153, 153, 153, 0.92);
-  border-top: 2px solid rgba(153, 153, 153, 0.92);
-  width: 173px;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  color: #ffffff;
-}
-
 .catalog-retrieval-form-block-form span.wpcf7-not-valid-tip {
   font-size: 10px;
   position: absolute;
   width: 225px;
   top: 30px;
-}
-
-.catalog-retrieval-form-block div.wpcf7-response-output {
-  position: absolute;
-  bottom: -85px;
-}
-
-.catalog-retrieval-form-block-form .catalog-retrieval-form-block-form-mail {
-  background-color: #99bdd1;
-  border-bottom: 2px solid rgba(153, 153, 153, 0.92);
-  width: 173px;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  color: #ffffff;
-}
-
-.main-header-block-medtron-content-left-text {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 76px;
-}
-
-.main-header-block-medtron-content-left-text-left {
-  font-size: 24px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: -0.2px;
-  color: #717171;
-}
-
-.main-header-block-medtron-content-left-text-right {
-  font-size: 18px;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  color: #717171;
-  font-weight: 500;
-  margin-bottom: 25px;
 }
 
 .main-header-block-medtron-about-manufacturer {
@@ -1079,25 +653,6 @@ footer {
   height: 300px;
 }
 
-.nedtron-block-title-text {
-  width: 293px;
-  position: absolute;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: -0.2px;
-  color: #717171;
-  bottom: 37px;
-  left: 170px;
-}
-
-.nedtron-block-title {
-  position: relative;
-  /*margin-top: -79px;*/
-}
-
 .megtron-download-catalog-btn {
   font-size: 13px;
   font-weight: bold;
@@ -1115,25 +670,6 @@ footer {
   justify-content: center;
   align-items: center;
   margin-bottom: 32px;
-  cursor: pointer;
-}
-
-.megtron-leave-for {
-  font-size: 13px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
-  width: 261.7px;
-  height: 59px;
-  border: 2px solid #ffffff;
-  border-right: none;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
 }
 
@@ -1169,19 +705,6 @@ footer {
   align-items: center;
 }
 
-.gallery-of-surgery-apparatus {
-  width: 100%;
-}
-
-.gallery-of-surgery-apparatus-bg {
-  background-image: url("/wp-content/themes/tfl/img/2222.png");
-  width: 660px;
-  height: 676px;
-  position: absolute;
-  left: 0;
-  z-index: -2;
-}
-
 .gallery-of-surgery-apparatus-bg-1 {
   background-image: url("/wp-content/themes/tfl/img/111.png");
   width: 748px;
@@ -1192,60 +715,11 @@ footer {
   bottom: 0;
 }
 
-.gallery-of-surgery-apparatus-item-text p {
-  font-size: 14px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: -0.2px;
-  color: #ffffff;
-  margin-left: 14px;
-  padding-right: 10px;
-  max-width: 149px;
-  word-break: break-word;
-}
-
 .apparatus-item-text--1 {
   position: absolute;
   bottom: 72px;
 }
 
-.apparatus-item-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: -0.2px;
-  color: #ffffff;
-  border: 2px solid #ffffff;
-  border-right: none;
-  width: 195px;
-  height: 38px;
-}
-
-.gallery-of-surgery-apparatus-item {
-  /*float: left;*/
-  width: 360px;
-  cursor: pointer;
-  height: 392px;
-  background-color: rgba(153, 153, 153, 0.92);
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin: 20px 10px;
-}
-
-.gallery-of-surgery-apparatus-item1-text {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  min-height: 140px;
-}
 .neuro-block img {
   object-fit: cover;
   height: 100%;
@@ -1254,124 +728,19 @@ footer {
   z-index: 3;
 }
 
-/*.apparatus-item-button111 {*/
-/*position: absolute;*/
-/*bottom: 0;*/
-/*right: 0;*/
-/*margin-left: 84%;*/
-/*}*/
-
-.apparatus-item-button-1 {
-  margin-bottom: 21px;
-}
-
 .popup .wpcf7-validation-errors {
   background: white;
   position: absolute;
   bottom: -80px;
 }
 
-.apparatus-item-button-2 {
-  margin-bottom: 14px;
-}
-
-.gallery-of-surgery-apparatus-items {
-  margin-top: 54px;
-  /* display: flex;
-  justify-content: space-between; */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  /*justify-content: space-between;*/
-}
-
-.gallery-of-surgery-apparatus-item {
-  position: relative;
-  margin: 0 10px;
-}
-
-.gallery-of-surgery-apparatus-item-img {
-  position: absolute;
-  left: 0;
-  top: -16px;
-}
-
-.grey-line-main-medtron {
-  margin-top: 45px;
-  margin-bottom: 72px;
-}
-
-.catalog-retrieval-form-block {
-  width: 360px;
-  max-width: 100%;
-  height: 389px;
-  background-color: rgba(153, 153, 153, 0.92);
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 81px;
-}
-
-.btn-retrieval-form {
-  border-top: 2px solid #ffffff;
-  border-bottom: 2px solid #ffffff;
-  height: 38px;
-  font-size: 13px;
-  font-weight: bold;
-  color: #ffffff;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  margin-bottom: 0px;
-  cursor: pointer;
-  position: relative;
-  transition: all ease 0.4s;
-}
-
-.submiter {
-  display: block;
-  position: relative;
-  margin-bottom: 15px;
-}
-
-.catalog-retrieval-form-block-form {
-  width: 225px;
-  height: 334px;
-  background-color: #99bdd1;
-  position: absolute;
-  left: 50%;
-  margin-left: -112px;
-  top: -13px;
-  padding-top: 80px;
-  box-sizing: border-box;
-}
-
 .catalog-retrieval-form-block-form-downoad {
   padding-bottom: 26px;
-}
-
-.catalog-retrieval-form-block-form p {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
-  /*border-bottom: 2px solid rgba(153, 153, 153, 0.92);*/
 }
 
 .catalog-retrieval-form-block-form-name,
 .catalog-retrieval-form-block-form-mail {
   padding: 26px;
-}
-
-.main-header-block-nsk-content-left-main-title {
-  bottom: 128px;
 }
 
 .nsk-block-title-text {
@@ -1647,11 +1016,6 @@ footer {
   height: 114px;
   border-bottom: 1px solid #99bdd1;
 }
-
-/* 
-.product-page-specifications-block-items:last-child {
-  border-bottom: 0;
-} */
 
 .product-page-specifications-block-item1 {
   /*height: 122px;*/
@@ -1985,45 +1349,9 @@ footer {
   position: relative;
 }
 
-/* 
-.operating-systems-block-items:before {
-  position: absolute;
-  content: "";
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.37) 0%,
-    rgba(0, 0, 0, 0.37) 100%
-  );
-} */
-
 .grey-line-content {
   position: relative;
 }
-
-/* 
-.Ñonsumables-gallery--img {
-  position: relative;
-  height: 228px;
-}
-
-.Ñonsumables-gallery--img:before {
-  position: absolute;
-  content: "";
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(
-    270deg,
-    rgba(0, 0, 0, 0.37) 55.8%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  z-index: 2;
-} */
 
 .drop-down-menu p {
   width: 134px;
@@ -2074,77 +1402,10 @@ footer {
   transition: 0.5s;
 }
 
-.popup {
-  opacity: 0;
-  pointer-events: none;
-  transition: 0.5s;
-  position: fixed;
-  top: 24px;
-  width: 483px;
-  z-index: 9999999999999999999;
-  left: 50%;
-  margin-left: -216px;
-}
-
-.cross-pop-up {
-  position: absolute;
-  top: 0px;
-  right: 4px;
-}
-
-.popup form {
-  width: 483px;
-  height: 485px;
-  background: rgba(153, 153, 153, 0.92);
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-  padding: 30px;
-  box-sizing: border-box;
-}
-
 .cross-pop-up-line {
   cursor: pointer;
   width: 30px;
   height: 30px;
-}
-
-/* 
-.cross-pop-up-line:before {
-  position: absolute;
-  content: "";
-  height: 29.5px;
-  width: 1px;
-  background: white;
-  transform: rotate(-135deg);
-  top: 10px;
-  right: 20px;
-}
-
-.cross-pop-up-line:after {
-  position: absolute;
-  content: "";
-  height: 29.5px;
-  width: 1px;
-  background: white;
-  transform: rotate(-45deg);
-  top: 10px;
-  right: 20px;
-} */
-
-.popup-title {
-  text-align: center;
-  margin-top: 20px;
-  line-height: normal;
-  font-size: 13px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.popup-line {
-  width: 342px;
-  max-width: 100%;
-  height: 1px;
-  background: #ffffff;
-  margin: 30px auto 36px auto;
 }
 
 .popup-fotm-input input {
@@ -2153,44 +1414,12 @@ footer {
   width: 342px;
   height: 50px;
 }
-.popup-fotm-input .wpcf7-form-control-wrap {
-  margin-bottom: 28px;
-  display: block;
-  position: relative;
-}
-.catalog-retrieval-form-block .wpcf7-form {
-  width: 100%;
-}
-.catalog-retrieval-form-block div.wpcf7 {
-  width: 100%;
-  display: block;
-}
+
 .popup-fotm-input .wpcf7-form-control-wrap .wpcf7-not-valid-tip {
   position: absolute;
   bottom: -20px;
   left: 0;
   right: 0;
-}
-
-.popup-fotm-input {
-  text-align: center;
-}
-
-/* 
-.popup-fotm-input input::placeholder {
-  font-family: HelveticaNeueCyr, sans-serif;
-  line-height: normal;
-  font-size: 13px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #717171;
-} */
-
-.popup-fotm-input input {
-  font-size: 13px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #717171;
 }
 
 .submit-popup {
@@ -2218,20 +1447,6 @@ footer {
 .cabinet {
   margin-bottom: 92px;
 }
-
-/* 
-@-moz-document url-prefix() {
-  .radiology-block-content-img-right::before {
-    position: absolute;
-    content: "";
-    background-image: url("/wp-content/themes/tfl/img/Vector 2.1.png");
-    width: 10.5px;
-    height: 17px;
-    bottom: 55.5px;
-    right: 36px;
-    z-index: 9;
-  }
-} */
 
 .noscroll {
   overflow: hidden;
@@ -2269,16 +1484,6 @@ footer {
   margin-top: 14px;
 }
 
-/* 
-.open .burger-brick:last-child {
-  -webkit-transform: rotate(-405deg);
-  -moz-transform: rotate(-405deg);
-  -ms-transform: rotate(-405deg);
-  -o-transform: rotate(-405deg);
-  transform: rotate(-405deg);
-  margin-top: -12px;
-} */
-
 .open .middle {
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
@@ -2292,18 +1497,6 @@ footer {
   display: block;
   background: rgba(0, 0, 0, 0.5);
   cursor: pointer;
-}
-
-.menu-overlay {
-  display: block;
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: 0.25s all ease-out;
-  transition: 0.25s all ease-out;
 }
 
 .grey-block-radiology-rwsponcive {
@@ -2327,13 +1520,6 @@ footer {
   width: 555px;
 }
 
-.arrow-main-respons,
-.neuro-arrow-block,
-.radiology-block-content-respons-arrow,
-.operating-systems-block-items-arrow-respons {
-  display: none;
-}
-
 @keyframes width {
   0%,
   100% {
@@ -2342,43 +1528,6 @@ footer {
   50% {
     width: 20vh;
   }
-}
-
-.main-header-block-right-arrow-block-right-line {
-  animation: width 4.2s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
-}
-
-.main-header-block-left-blue-arrow-left-line {
-  animation: width 4.2s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
-}
-
-.main-header-block-left-blue-arrow-left-medtron {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  bottom: 0px;
-  right: 0;
-  cursor: pointer;
-}
-
-.main-header-block-right-arrow-block-right-medtron {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  bottom: 15px;
-  cursor: pointer;
-  width: 190px;
-}
-/* 
-#main-header-block-right-arrow-block-right-medtron {
-  width: 190px;
-  height: 40px;
-  position: absolute;
-  bottom: -15px;
-} */
-
-.arrow-responcive-medtron {
-  display: none;
 }
 
 .radiology-block-content-img-right-clinic-arrow-bottom {
@@ -2448,41 +1597,6 @@ footer {
   height: 240px;
   width: 26px;
 }
-
-/* 
-#new-block-grey2-arrow-white {
-  height: 230px;
-  width: 40px;
-  position: absolute;
-  right: 0px;
-  bottom: 0;
-  cursor: pointer;
-}
-#main-header-block-left-blue-arrow-left-medtron {
-  width: 130px;
-  position: absolute;
-  bottom: 15px;
-  right: 0;
-  height: 40px;
-  cursor: pointer;
-}
-#main-header-block-left-blue-arrow-left-medtron1 {
-  width: 164px;
-  cursor: pointer;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  right: 0;
-  height: 40px;
-}
-#grey-block-radiology-block-content-img-right-arrow-green {
-  width: 160px;
-  position: absolute;
-  height: 30px;
-  bottom: -34px !important;
-  left: 119px;
-  cursor: pointer;
-} */
 
 .neuro-block-main-arrow-green {
   display: flex;
@@ -2604,27 +1718,6 @@ footer {
   justify-content: center;
 }
 
-/* 
-.decoration a:hover {
-  color: #717171;
-}
-
-.decoration::before {
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: white;
-  transition: 0.3s;
-}
-
-.decoration:hover::before {
-  width: 100%;
-} */
-
 .decoration-blue {
   position: relative;
 }
@@ -2639,27 +1732,6 @@ footer {
   justify-content: center;
 }
 
-/* 
-.decoration-blue a:hover {
-  color: #ffffff;
-}
-
-.decoration-blue::before {
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #99bdd1;
-  transition: 0.3s;
-}
-
-.decoration-blue:hover::before {
-  width: 100%;
-} */
-
 .decoration-blue-cabinet a {
   position: relative;
   height: 100%;
@@ -2669,27 +1741,6 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
-/* 
-.decoration-blue-cabinet a:hover {
-  color: #ffffff;
-}
-
-.decoration-blue-cabinet::before {
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #99bdd1;
-  transition: 0.3s;
-}
-
-.decoration-blue-cabinet:hover::before {
-  width: 100%;
-} */
 
 .img-left-arrow-green-left-block {
   display: flex;
@@ -2740,29 +1791,6 @@ footer {
   animation: height-line 4.2s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
 }
 
-/* 
-.Ñonsumables-gallery-arrow {
-  z-index: 9;
-  display: flex;
-  position: absolute;
-  flex-direction: column;
-  align-items: center;
-  bottom: -117px;
-  right: -10px;
-  left: 50%;
-  margin-left: -50%;
-  cursor: pointer;
-}
-
-.Ñonsumables-gallery-items-arrow-right {
-  position: absolute;
-  z-index: 9;
-  display: flex;
-  align-items: center;
-  bottom: 70px;
-  right: -201px;
-} */
-
 .onsumables-gallery-items-arrow-right-line {
   width: 190px;
   background: white;
@@ -2774,16 +1802,6 @@ footer {
   width: 11px !important;
   height: 16px !important;
 }
-
-/* 
-.Ñonsumables-gallery-items-arrow-left {
-  position: absolute;
-  z-index: 9;
-  display: flex;
-  align-items: center;
-  bottom: 70px;
-  left: -201px;
-} */
 
 .onsumables-gallery-items-arrow-left-line {
   width: 190px;
@@ -2895,17 +1913,6 @@ footer {
   overflow: hidden;
 }
 
-.decoration-left-effect {
-  width: 260px;
-  height: 59px;
-  top: -2px;
-  right: -260px;
-  background: #ffffff;
-  position: absolute;
-  transition: all 0.5s ease;
-  z-index: 2;
-}
-
 .decoration-left:hover .decoration-left-effect {
   right: 0;
 }
@@ -2921,35 +1928,12 @@ footer {
   position: relative;
 }
 
-.decoration-left-sm-effect {
-  width: 195px;
-  height: 42px;
-  top: -2px;
-  right: -260px;
-  background: #ffffff;
-  position: absolute;
-  transition: all 0.5s ease;
-  z-index: 2;
-}
-
 .decoration-left-small:hover .decoration-left-sm-effect {
   right: 0;
 }
 
 .decoration-left-small:hover a {
   color: #717171;
-}
-
-.decoration-left-small a {
-  color: white;
-  transition: all 0.5s ease;
-  z-index: 3;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .decoration-blue-right {
@@ -3060,13 +2044,6 @@ footer {
   right: 0;
 }
 
-.decoration-left-small {
-  cursor: pointer;
-  position: relative;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
 .main-header-block-right-slider {
   overflow: hidden;
   width: calc(100% + 95px);
@@ -3106,29 +2083,10 @@ footer {
   line-height: 1.5;
 }
 
-/* 
-.ur-frontend-form form button[type="submit"],
-.ur-frontend-form form input[type="submit"] {
-  border: 1px solid;
-  background-image: linear-gradient(#efefef, #cecece);
-  border-radius: 8px;
-  margin-top: 10px;
-} */
-
 .user-registration a {
   color: #3f9bce;
   padding-left: 10px;
 }
-
-/* 
-span.login-tab {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-span.login-tab.active {
-  text-decoration: none;
-} */
 
 .operating-systems-block-items2-arrow.operating-systems-block-items2-arrow2 {
   cursor: pointer;
@@ -3147,65 +2105,6 @@ span.login-tab.active {
   height: 477px;
   position: relative;
 }
-
-/* 
-.Ñonsumables-gallery-items {
-  position: relative;
-  transition: 0.6s;
-}
-
-.Ñonsumables-gallery-items-body {
-  position: relative;
-  transition: 0.6s;
-  width: 100%;
-  transform: scale(0.8) translateX(0);
-}
-
-.Ñonsumables-gallery-items.slick-active:nth-child(2) {
-  display: none !important;
-}
-.Ñonsumables-gallery-items.slick-center .Ñonsumables-gallery-items-body {
-  width: calc(100% + 200px) !important;
-  transform: translateX(-100px) !important;
-  z-index: 3 !important;
-}
-
-.Ñonsumables-gallery-items.slick-slide.slick-cloned[data-slick-index="-1"],
-.Ñonsumables-gallery-items.slick-current.slick-active {
-}
-
-.Ñonsumables-gallery-items.slick-current.slick-active
-  + .Ñonsumables-gallery-items {
-}
-
-.Ñonsumables-gallery[data-slide="1"]
-  .Ñonsumables-gallery-items[data-slick-index="0"]
-  .Ñonsumables-gallery-items-body {
-  
-}
-.Ñonsumables-gallery-items.slick-slide.slick-cloned[data-slick-index="-1"]
-  + .Ñonsumables-gallery-items.slick-current[data-slick-index="0"]
-  .Ñonsumables-gallery-items-body {
-}
-
-.Ñonsumables-gallery-items.slick-slide.slick-cloned[data-slick-index="-1"]
-  + .Ñonsumables-gallery-items[data-slick-index="0"]
-  .Ñonsumables-gallery-items-body,
-.Ñonsumables-gallery-items.slick-current.slick-active
-  + .Ñonsumables-gallery-items
-  .Ñonsumables-gallery-items-body {
-}
-
-.Ñonsumables-gallery-items.slick-slide.slick-cloned[data-slick-index="-1"]
-  + .Ñonsumables-gallery-items[data-slick-index="0"],
-.Ñonsumables-gallery-items.slick-current.slick-active
-  + .Ñonsumables-gallery-items {
-}
-
-.Ñonsumables-gallery-wrapper {
-  position: relative;
-}
-*/
 
 .contact-block-wrapper {
   margin: 60px 0 100px;
@@ -3241,17 +2140,6 @@ a.contact-block-row {
   text-decoration: none;
   color: #333;
 }
-
-
-
-.clear {
-  clear: both;
-}
-
-/* 
-#desktop-header {
-  background-color: white;
-} */
 
 .contact-block-content-title {
   font-weight: bold;
@@ -3537,4 +2425,576 @@ a.contact-block-row {
   left: 0;
   z-index: -1;
   transform: rotate(180deg);
+}
+
+.main-header-block-medtron-content {
+  display: flex;
+}
+
+.main-header-block-medtron-content-left {
+  background: #99bdd1;
+  width: 830px;
+  height: 720px;
+  padding-left: 95px;
+  margin-left: -95px;
+  position: relative;
+}
+
+.arrow-responcive-medtron {
+  display: none;
+}
+
+.main-header-block-left-blue-arrow-left-medtron {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  cursor: pointer;
+}
+
+.main-header-block-left-blue-arrow-left-line {
+  animation: width 4.2s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
+}
+
+.main-header-block-medtron-content-left-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 76px;
+}
+
+.main-header-block-medtron-content-right {
+  width: 485px;
+  height: 720px;
+  padding-right: 95px;
+  margin-right: -95px;
+  position: relative;
+  background-size: cover;
+}
+
+.main-header-block-medtron-content-right-gallery {
+  /* width: 456px;
+  height: 600px; */
+  margin-right: -95px;
+}
+
+.main-header-block-right-arrow-block-right-medtron {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 15px;
+  cursor: pointer;
+  width: 190px;
+}
+
+.main-header-block-right-arrow-block-right-line {
+  animation: width 4.2s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
+}
+
+.main-header-block-medtron-content-left-text-right {
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: #717171;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.main-header-block-right-arrow-block-right-medtron {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 15px;
+  cursor: pointer;
+  width: 190px;
+}
+
+.nedtron-block-title {
+  position: relative;
+}
+
+.main-header-block-nsk-content-left-main-title {
+  bottom: 128px;
+}
+
+.main-header-block-medtron-content-left-main-title {
+  object-fit: contain;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Book Antiqua, sans-serif;
+  font-weight: 900;
+  color: #ffffff;
+  position: absolute;
+  font-size: 49px;
+  bottom: 46px;
+  left: 0px;
+  width: 352px;
+  z-index: 1;
+}
+
+.nedtron-block-title-text {
+  width: 293px;
+  position: absolute;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #717171;
+  bottom: 37px;
+  left: 170px;
+}
+
+.megtron-leave-for {
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  width: 261.7px;
+  height: 59px;
+  border: 2px solid #ffffff;
+  border-right: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.decoration-left-effect {
+  width: 260px;
+  height: 59px;
+  top: -2px;
+  right: -260px;
+  background: #ffffff;
+  position: absolute;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.gallery-of-surgery-apparatus {
+  width: 100%;
+}
+
+.gallery-of-surgery-apparatus-bg {
+  width: 660px;
+  height: 676px;
+  position: absolute;
+  left: 0;
+  z-index: -2;
+}
+
+.gallery-of-surgery-apparatus-items {
+  margin-top: 54px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gallery-of-surgery-apparatus-item {
+  position: relative;
+  margin: 0 10px;
+}
+
+.gallery-of-surgery-apparatus-item-img {
+  position: absolute;
+  left: 0;
+  top: -16px;
+}
+
+.decoration-left-small {
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.decoration-left-sm-effect {
+  width: 195px;
+  height: 42px;
+  top: -2px;
+  right: -260px;
+  background: #ffffff;
+  position: absolute;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.apparatus-item-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-right: none;
+  width: 195px;
+  height: 38px;
+}
+
+.decoration-left-small {
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.decoration-left-sm-effect {
+  width: 195px;
+  height: 42px;
+  top: -2px;
+  right: -260px;
+  background: #ffffff;
+  position: absolute;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.apparatus-item-button-2 {
+  margin-bottom: 14px;
+}
+
+.decoration-left-small a {
+  color: white;
+  transition: all 0.5s ease;
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-of-surgery-apparatus-item {
+  width: 360px;
+  cursor: pointer;
+  height: 392px;
+  background-color: rgba(153, 153, 153, 0.92);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 20px 10px;
+}
+
+.gallery-of-surgery-apparatus-item img {
+  height: 257px;
+  width: 300px;
+  object-fit: contain;
+}
+
+.gallery-of-surgery-apparatus-item1-text {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 140px;
+}
+
+.gallery-of-surgery-apparatus-item-text p {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+  margin-left: 14px;
+  padding-right: 10px;
+  max-width: 149px;
+  word-break: break-word;
+}
+
+.apparatus-item-button-1 {
+  margin-bottom: 21px;
+}
+
+.clear {
+  clear: both;
+}
+
+.grey-line-main-medtron {
+  margin-top: 45px;
+  margin-bottom: 72px;
+}
+
+.grey-line-main {
+  height: 1px;
+  width: 100%;
+  background: #717171;
+  margin-top: 90px;
+  margin-bottom: 37px;
+}
+
+.catalog-retrieval-form-block {
+  width: 360px;
+  max-width: 100%;
+  height: 389px;
+  background-color: rgba(153, 153, 153, 0.92);
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 81px;
+}
+
+.catalog-retrieval-form-block div.wpcf7 {
+  width: 100%;
+  display: block;
+}
+
+.catalog-retrieval-form-block .wpcf7-form {
+  width: 100%;
+}
+
+.catalog-retrieval-form-block-form {
+  width: 225px;
+  height: 334px;
+  background-color: #99bdd1;
+  position: absolute;
+  left: 50%;
+  margin-left: -112px;
+  top: -13px;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+
+.catalog-retrieval-form-block-form p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.catalog-retrieval-form-block-form .catalog-retrieval-form-block-form-name {
+  background-color: #99bdd1;
+  border-bottom: 2px solid rgba(153, 153, 153, 0.92);
+  border-top: 2px solid rgba(153, 153, 153, 0.92);
+  width: 173px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.catalog-retrieval-form-block-form .catalog-retrieval-form-block-form-mail {
+  background-color: #99bdd1;
+  border-bottom: 2px solid rgba(153, 153, 153, 0.92);
+  width: 173px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.submiter {
+  display: block;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.btn-retrieval-form {
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  height: 38px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  cursor: pointer;
+  position: relative;
+  transition: all ease 0.4s;
+}
+
+.catalog-retrieval-form-block div.wpcf7-response-output {
+  position: absolute;
+  bottom: -85px;
+}
+
+.popup {
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+  position: fixed;
+  top: 24px;
+  width: 483px;
+  z-index: 9999999999999999999;
+  left: 50%;
+  margin-left: -216px;
+}
+
+.overlay-popup {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(153, 189, 209, 0.9);
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.menu-overlay {
+  display: block;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.25s all ease-out;
+  transition: 0.25s all ease-out;
+}
+
+.cross-pop-up {
+  position: absolute;
+  top: 0px;
+  right: 4px;
+}
+
+.wpcf7 .screen-reader-response {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  word-wrap: normal !important;
+}
+
+.popup form {
+  width: 483px;
+  height: 485px;
+  background: rgba(153, 153, 153, 0.92);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.popup-title {
+  text-align: center;
+  margin-top: 20px;
+  line-height: normal;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.popup-line {
+  width: 342px;
+  max-width: 100%;
+  height: 1px;
+  background: #ffffff;
+  margin: 30px auto 36px auto;
+}
+
+.popup-fotm-input {
+  text-align: center;
+}
+
+.popup-fotm-input .wpcf7-form-control-wrap {
+  margin-bottom: 28px;
+  display: block;
+  position: relative;
+}
+
+.popup-fotm-input input {
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #717171;
+}
+
+.main-header-block-main-text {
+  font-family: Book Antiqua, sans-serif;
+  font-weight: 900;
+  position: absolute;
+  font-size: 96px;
+  bottom: 212px;
+  left: 0px;
+  color: #ffffff;
+  width: 556px;
+  height: 186px;
+  z-index: 1;
+}
+
+.main-header-block .container {
+  display: flex;
+  position: relative;
+}
+
+#company-budget {
+  font-family: HelveticaNeueCyr, sans-serif;
+  font-size: 18px;
+  height: 40px;
+  position: absolute;
+  color: #717171;
+  left: 68px;
+  top: 21px;
+  font-weight: 500;
+}
+
+.main-header-block-left-blue {
+  background: #99bdd1;
+  height: 548px;
+  position: relative;
+  width: 293px;
+}
+
+#main-header-block-left-blue-arrow-left-main {
+  width: 130px;
+  height: 35px;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  cursor: pointer;
+}
+
+.main-header-block-left-blue-arrow-left {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  cursor: pointer;
+}
+
+.grey-slogan {
+  padding: 15px;
+  text-align: right;
+  font-size: 24px;
+  color: #717171;
+  position: absolute;
+  bottom: 35px;
+}
+
+.arrow-main-respons,
+.neuro-arrow-block,
+.radiology-block-content-respons-arrow,
+.operating-systems-block-items-arrow-respons {
+  display: none;
 }
